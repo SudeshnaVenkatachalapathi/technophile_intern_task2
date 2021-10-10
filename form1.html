@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form2.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <div class="container ">
+        <header class="header">
+            <h1 id="title">
+                College Survey
+            </h1>
+            
+        </header>
+        <form action="" id="survey-form">
+
+            <!-- Text section -->
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="formControl" placeholder="Enter your name" required>
+            </div>
+            <!-- end of text section -->
+
+            <!-- Type Email section -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="formControl" placeholder="Enter your Email" required>
+                <p id="email-error" style="color: red;font-size: small;text-align: center;display:none;">Email invalid</p>
+            </div>
+            <!-- end of Email section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone" class="formControl" placeholder="Enter your phone number" required>
+            </div>
+            <!-- end of Number section -->
+
+            <!-- Type Number section -->
+            <div class="form-group">
+                <label for="address">Address <span class="clue">(optional)</span></label>
+                <input type="text" name="address" id="address" class="formControl" placeholder="Enter your address">
+            </div>
+            <!--  end of number section -->
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <p class="page-header">1 is very likely, 10 is unlikely </p>
+                    <div class="chart-scale">
+                      <button class="btn btn-scale btn-scale-asc-1">1</button>
+                      <button class="btn btn-scale btn-scale-asc-2">2</button>
+                      <button class="btn btn-scale btn-scale-asc-3">3</button>
+                      <button class="btn btn-scale btn-scale-asc-4">4</button>
+                      <button class="btn btn-scale btn-scale-asc-5">5</button>
+                      <button class="btn btn-scale btn-scale-asc-6">6</button>
+                      <button class="btn btn-scale btn-scale-asc-7">7</button>
+                      <button class="btn btn-scale btn-scale-asc-8">8</button>
+                      <button class="btn btn-scale btn-scale-asc-9">9</button>
+                      <button class="btn btn-scale btn-scale-asc-10">10</button>
+                      <hr/>
+              
+                    
+                    </div>
+                  </div>
+                </div>
+
+            
+
+            
+
+            
+            <!-- end of select section -->
+
+            <div class="form-group">
+                <p id="quest">Are you satisfied with the teaching staff and their teaching methods?</p>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely satisfied"
+                    class="inputRadio"
+                    checked> Extremely satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Very satisfied"
+                    class="inputRadio"
+                    >Very satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Satisfied"
+                    class="inputRadio"
+                    > Satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Neutral"
+                    class="inputRadio"
+                    > Neutral
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Dissatisfied"
+                    class="inputRadio"
+                    > Dissatisfied
+                </label>
+            </label>
+            <label for="">
+                <input type="radio" name="source" value="Very Dissatisfied"
+                class="inputRadio"
+                > Very Dissatisfied
+            </label>
+        </label>
+        <label for="">
+            <input type="radio" name="source" value="Extremely Dissatisfied"
+            class="inputRadio"
+            > Extremely Dissatisfied
+        </label>
+            </div>
+
+
+
+            <div class="form-group">
+                <p id="quest">How satisfied are you with the facilities provided by the college?</p>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely satisfied"
+                    class="inputRadio"
+                    checked> Extremely satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Very satisfied"
+                    class="inputRadio"
+                    >Very satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Satisfied"
+                    class="inputRadio"
+                    > Satisfied
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Neutral"
+                    class="inputRadio"
+                    > Neutral
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Dissatisfied"
+                    class="inputRadio"
+                    > Dissatisfied
+                </label>
+            </label>
+            <label for="">
+                <input type="radio" name="source" value="Very Dissatisfied"
+                class="inputRadio"
+                > Very Dissatisfied
+            </label>
+        </label>
+        <label for="">
+            <input type="radio" name="source" value="Extremely Dissatisfied"
+            class="inputRadio"
+            > Extremely Dissatisfied
+        </label>
+            </div>
+
+
+            <div class="form-group">
+                <p id="quest">Was it easy to obtain the necessary resources from the college library?</p>
+                <label for="">
+                    <input type="radio" name="source" value="Yes"
+                    class="inputRadio"
+                    checked> Yes
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="No"
+                    class="inputRadio"
+                    >No
+                </label>
+
+                <div class="form-group">
+                    <p id="quest">Is it easy to obtain the necessary resources from the college library?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Yes"
+                        class="inputRadio"
+                        checked> Yes
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="No"
+                        class="inputRadio"
+                        >No
+                    </label>
+
+
+                    <div class="form-group">
+                        <p id="quest">Do you feel it is easier to register for different courses within the college?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Extremely satisfied"
+                            class="inputRadio"
+                            checked> Extremely satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very satisfied"
+                            class="inputRadio"
+                            >Very satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Satisfied"
+                            class="inputRadio"
+                            > Satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Neutral"
+                            class="inputRadio"
+                            > Neutral
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Dissatisfied"
+                            class="inputRadio"
+                            > Dissatisfied
+                        </label>
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very Dissatisfied"
+                        class="inputRadio"
+                        > Very Dissatisfied
+                    </label>
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely Dissatisfied"
+                    class="inputRadio"
+                    > Extremely Dissatisfied
+                </label>
+                    </div>
+
+                    <div class="form-group">
+                        <p id="quest">How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Extremely satisfied"
+                            class="inputRadio"
+                            checked> Extremely satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very satisfied"
+                            class="inputRadio"
+                            >Very satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Satisfied"
+                            class="inputRadio"
+                            > Satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Neutral"
+                            class="inputRadio"
+                            > Neutral
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Dissatisfied"
+                            class="inputRadio"
+                            > Dissatisfied
+                        </label>
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very Dissatisfied"
+                        class="inputRadio"
+                        > Very Dissatisfied
+                    </label>
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely Dissatisfied"
+                    class="inputRadio"
+                    > Extremely Dissatisfied
+                </label>
+                    </div>
+
+                <div class="form-group">
+                        <p id="quest">How satisfied are you with the cleanliness and variety of food items available in the cafeteria?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Extremely satisfied"
+                            class="inputRadio"
+                            checked> Extremely satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very satisfied"
+                            class="inputRadio"
+                            >Very satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Satisfied"
+                            class="inputRadio"
+                            > Satisfied
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Neutral"
+                            class="inputRadio"
+                            > Neutral
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Dissatisfied"
+                            class="inputRadio"
+                            > Dissatisfied
+                        </label>
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very Dissatisfied"
+                        class="inputRadio"
+                        > Very Dissatisfied
+                    </label>
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely Dissatisfied"
+                    class="inputRadio"
+                    > Extremely Dissatisfied
+                </label>
+                    </div>
+
+                    <div class="form-group">
+                        <p id="quest">How supportive were the faculty members?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Extremely supportive"
+                            class="inputRadio"
+                            checked> Extremely supportive
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very supportive"
+                            class="inputRadio"
+                            >Very supportive
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Supportive"
+                            class="inputRadio"
+                            > Supportive
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Neutral"
+                            class="inputRadio"
+                            > Neutral
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Unsupportive"
+                            class="inputRadio"
+                            > Unsupportive
+                        </label>
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very Supportive"
+                        class="inputRadio"
+                        > Very Supportive
+                    </label>
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Extremely Unsupportive"
+                    class="inputRadio"
+                    > Extremely Unsupportive
+                </label>
+                    </div>
+
+
+                    <div class="form-group">
+                        <p id="quest">What do you think of the hostel?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Extremely crowded"
+                            class="inputRadio"
+                            checked> Extremely crowded
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very crowded"
+                            class="inputRadio"
+                            >Very crowded
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Crowded"
+                            class="inputRadio"
+                            > Crowded
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Not so crowded"
+                            class="inputRadio"
+                            > Not so crowded
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Not at all crowded"
+                            class="inputRadio"
+                            > Not at all crowded
+                        </label>
+                    
+                    </div>
+
+
+                    <div class="form-group">
+                        <p id="quest">Are you satisfied with the teaching staff and their teaching practices?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Yes"
+                            class="inputRadio"
+                            checked> Yes
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="No"
+                            class="inputRadio"
+                            >No
+                        </label>
+                        
+                    
+                    </div>
+
+                    <div class="form-group">
+                        <p id="quest">Do you think faculty and support staff at the college were helpful?</p>
+                        <label for="">
+                            <input type="radio" name="source" value="Very helpful"
+                            class="inputRadio"
+                            checked> Very helpful
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Helpful"
+                            class="inputRadio"
+                            >Helpful
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Neither helpful nor unhelpful"
+                            class="inputRadio"
+                            > Neither helpful nor unhelpful
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Unhelpful"
+                            class="inputRadio"
+                            > Unhelpful
+                        </label>
+                        <label for="">
+                            <input type="radio" name="source" value="Very unhelpful"
+                            class="inputRadio"
+                            > Very unhelpful
+                        </label>
+                    
+                    </div>
+
+                    <div class="form-group">
+                    <p id="quest">How likely are you to continue attending this college next year?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Extremely likely"
+                        class="inputRadio"
+                        checked> Extremely likely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very likely"
+                        class="inputRadio"
+                        >Very likely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Somewhat likely"
+                        class="inputRadio"
+                        > Somewhat likely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Not so likely"
+                        class="inputRadio"
+                        > Not so likely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Not at all likely"
+                        class="inputRadio"
+                        > Not at all likely
+                    </label>
+                
+                </div>
+            
+                <div class="form-group">
+                    <p id="quest">How satisfied are you with the accommodation?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Extremely satisfied"
+                        class="inputRadio"
+                        checked> Extremely satisfied
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Very satisfied"
+                        class="inputRadio"
+                        >Very satisfied
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Satisfied"
+                        class="inputRadio"
+                        > Satisfied
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Neutral"
+                        class="inputRadio"
+                        > Neutral
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Dissatisfied"
+                        class="inputRadio"
+                        > Dissatisfied
+                    </label>
+                </label>
+                <label for="">
+                    <input type="radio" name="source" value="Very Dissatisfied"
+                    class="inputRadio"
+                    > Very Dissatisfied
+                </label>
+            </label>
+            <label for="">
+                <input type="radio" name="source" value="Extremely Dissatisfied"
+                class="inputRadio"
+                > Extremely Dissatisfied
+            </label>
+                </div>
+
+
+                <div class="form-group">
+                    <p id="quest">Given a chance, are you willing to pursue another course at the college?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,Yes"
+                        class="inputRadio"
+                        checked> Definitely,Yes
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        >Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Probably,No"
+                        class="inputRadio"
+                        > Probably,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        > Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Can't say"
+                        class="inputRadio"
+                        > Can't say
+                    </label>
+                
+                </div>
+
+                <div class="form-group">
+                    <p id="quest">Do you think your siblings or friends will be benefited by studying at this college?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,Yes"
+                        class="inputRadio"
+                        checked> Definitely,Yes
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        >Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Probably,No"
+                        class="inputRadio"
+                        > Probably,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        > Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Can't say"
+                        class="inputRadio"
+                        > Can't say
+                    </label>
+                
+                </div>
+
+                <div class="form-group">
+                    <p id="quest">How many hours a week do you work your part-time job?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="I don’t have a job"
+                        class="inputRadio"
+                        checked> I don’t have a job
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="1-10 hours a week"
+                        class="inputRadio"
+                        >1-10 hours a week
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="11-15 hours a week"
+                        class="inputRadio"
+                        > 11-15 hours a week
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="16-20 hours a week"
+                        class="inputRadio"
+                        > 16-20 hours a week
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="More than 20 hours a week"
+                        class="inputRadio"
+                        > More than 20 hours a week
+                    </label>
+                
+                </div>
+
+                <div class="form-group">
+                    <p id="quest">How about your overall experience with this college?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="I don’t have a job"
+                        class="inputRadio"
+                        checked> I don’t have a job
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="No, I manage them both well"
+                        class="inputRadio"
+                        >No,I manage them both well
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Yes, but rarely"
+                        class="inputRadio"
+                        > Yes,but rarely
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Yes,often"
+                        class="inputRadio"
+                        > Yes,often
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Yes,always"
+                        class="inputRadio"
+                        > Yes,always
+                    </label>
+                
+                </div>
+
+                <div class="form-group">
+                    <p id="quest">What do you think about extracurricular activities?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="They are too few"
+                        class="inputRadio"
+                        checked> They are too few
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="They are just right"
+                        class="inputRadio"
+                        >They are just right
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="I was overwhelmed with the number"
+                        class="inputRadio"
+                        > I was overwhelmed with the number
+                    </label>
+                    
+                
+                </div>
+
+                <div class="form-group">
+                    <p id="quest">Do you think that the college takes enough measures to curb racial and ethnic bias?</p>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,Yes"
+                        class="inputRadio"
+                        checked> Definitely,Yes
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        >Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Probably,No"
+                        class="inputRadio"
+                        > Probably,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Definitely,No"
+                        class="inputRadio"
+                        > Definitely,No
+                    </label>
+                    <label for="">
+                        <input type="radio" name="source" value="Can't say"
+                        class="inputRadio"
+                        > Can't say
+                    </label>
+                
+                </div>
+
+
+        
+
+
+        
+
+
+
+        
+                
+
+            
+            
+
+            
+
+            
+
+            <!-- Textarea section -->
+            <div class="form-group">
+                <p id="quest">Please provide us with additional feedback on areas that need improvement</p>
+                <textarea name="feedback"  cols="30" rows="5"  id="feedback" class="textarea" placeholder="Enter your feedback here..."></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
